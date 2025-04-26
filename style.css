@@ -1,0 +1,179 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    box-shadow: 2px 2px 2px rgb(203, 201, 201);
+    background-color: white;
+    
+}
+
+.logo{
+    padding-top: 40px;
+    width: 200px;
+    height: 80px;
+}
+.search{
+    width: 600px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+input{
+    width: 600px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.bx{
+    font-size: 25px;
+   position: absolute;
+     
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    width: 100px;
+    height: 30px;
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    text-transform: uppercase;
+}
+p:active{
+    color: rgb(173, 22, 58);
+}
+p:hover:hover{
+    color: rgb(161, 158, 158);
+    cursor: pointer;
+}
+.slide{
+
+    width: 100%;
+}
+h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    width: 30px;
+    text-transform: uppercase;
+    color: rgb(173, 22, 58);
+    
+}
+.sale{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+   
+    
+}
+.sale_product1{
+    width: 150px;
+    height: 300px;
+    
+    text-align: center;
+    font-size: 18px;
+  
+}
+span{
+    color: rgb(173, 22, 58);
+
+}
+
+#s1{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px gray;
+}
+h2{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+
+}
+.category{
+width: 300px;
+height: 300px;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+gap: 15px;
+}
+#cut{
+text-decoration: line-through;
+display: inline;
+}
+button{
+    margin-top: 20px;
+    display: block;
+}
+
+
+.trending{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.trend1{
+    line-height: 0;
+    font-family: sans-serif;
+}
+
+.explor{
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+.main{
+    background-color:rgb(247, 244, 215) ;
+    align-items: center;
+    text-align: center;
+}
+.style1{
+    width: 100%;
+    background-color: rgb(247, 244, 215);
+    text-align: center;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+
+}
+h3{
+
+font-size: 30px;
+text-align: center;
+font-weight: normal;
+text-transform: uppercase;
+
+}
+
+.s_card{
+    
+    line-height: 0;
+    font-size: 12px;
+    
+}
+#name{
+    font-weight: bold;
+    font-size: 16px;
+
+}
